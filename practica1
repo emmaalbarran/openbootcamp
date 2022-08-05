@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+            int p1 = 10;
+            int p2 = 20;
+            int p3 = 30;
+
+            var valor = suma(p1, p2, p3);
+            System.out.println(valor);
+
+            coche micoche = new coche();
+            micoche.agregarpuerta();
+            System.out.println(micoche.puertas);
+    }
+    public static int suma(int a, int b, int c){
+            return a + b + c;
+        }
+}
+class coche {
+    public int puertas = 4;
+    public void agregarpuerta() {
+        this.puertas++;
+    }
+}
