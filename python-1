@@ -1,0 +1,11 @@
+emma@emma:~$ python3
+Python 3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hola, soy Emma")
+Hola, soy Emma
+>>> print("Estoy empezando el curso de python")
+Estoy empezando el curso de python
+>>> print("Espero aprender mucho")
+Espero aprender mucho
+>>> 
