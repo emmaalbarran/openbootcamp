@@ -1,0 +1,5 @@
+f = open('fichero.txt', 'a')
+f.write('datos\n')
+f.write('datos2\n')
+f.write('datos3\n')
+f.close()
