@@ -1,0 +1,21 @@
+from tkinter import StringVar
+import tkinter
+from tkinter import ttk
+
+window = tkinter.Tk()
+
+window.columnconfigure(0, weight=1)
+window.columnconfigure(1, weight=3)
+
+
+
+lista = ['debian', 'ubuntu', 'arch', 'fedora', 'mint', 'centOS']
+lista_items = tkinter.StringVar(value= lista)
+listbox = tkinter.Listbox(window, height=20, listvariable=lista_items)
+listbox.grid(column=0,  row=0, sticky=tkinter.W)
+
+
+saludo_label = ttk.Label(window, text='hola')
+saludo_label.grid(column=0, row=0, sticky=tkinter.W, padx=5, pady=5)
+
+window.mainloop()
