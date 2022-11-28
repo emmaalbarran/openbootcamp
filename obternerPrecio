@@ -1,0 +1,11 @@
+package emma.com;
+
+public class obternerPrecio {
+    public static void main(String[] args) {
+       int resultado = precio(20000);
+
+    }
+static int precio(int numero1){
+        return numero1 * (numero1 * 0.19);
+}
+}
