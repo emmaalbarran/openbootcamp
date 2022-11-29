@@ -1,0 +1,9 @@
+public class nombres {
+    public static void main(String[] args) {
+       String[] nombres = {"emma", "elsa", "eugenio"};
+
+               for (String nombre : nombres) {
+               System.out.println("Mi nombre es: " + nombre);
+               }
+    }
+}
